@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T4S1N | Computer Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <div class="brand">T4S1N</div>
+      <a href="#contact" class="btn">Let's Connect</a>
+    </nav>
+
+    <div class="hero-content container">
+      <p class="kicker">COMPUTER ENGINEER • BUILDER • PROBLEM SOLVER</p>
+      <h1>Hi, I'm <span>T4S1N</span>.</h1>
+      <p class="lead">
+        I design and build advanced digital systems—from modern web interfaces to application engineering,
+        performance optimization, and security-focused development.
+      </p>
+      <a href="#about" class="btn btn-primary">Explore My Profile</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section container">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate computer engineer who enjoys turning complex technical ideas into clean,
+        efficient, and practical solutions. I work across multiple domains where precision, creativity,
+        and performance matter the most.
+      </p>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Core Expertise</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Web Designing</h3>
+            <p>Creative, responsive, and professional web experiences with strong visual hierarchy.</p>
+          </article>
+          <article class="card">
+            <h3>Application Development</h3>
+            <p>Scalable and robust applications built with maintainable architecture.</p>
+          </article>
+          <article class="card">
+            <h3>Game Cheat Development</h3>
+            <p>Low-level systems knowledge applied to in-game behavior analysis and tooling.</p>
+          </article>
+          <article class="card">
+            <h3>Anti-Cheat Engineering</h3>
+            <p>Designing methods to detect suspicious patterns and harden game environments.</p>
+          </article>
+          <article class="card">
+            <h3>OS Optimization</h3>
+            <p>System-level tuning for speed, stability, and resource efficiency.</p>
+          </article>
+          <article class="card">
+            <h3>Code Manipulation & Modding</h3>
+            <p>Binary/code-level customization, reverse workflows, and mod implementation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <h2>Professional Identity</h2>
+      <p>
+        I combine engineering discipline with creative execution. If you want to collaborate on
+        high-performance, security-aware, and technically demanding projects—I'm ready.
+      </p>
+      <div class="tag-wrap">
+        <span class="tag">Engineer Mindset</span>
+        <span class="tag">Performance First</span>
+        <span class="tag">Security Aware</span>
+        <span class="tag">Creative Execution</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© {{ year }} T4S1N. Crafted with precision.</p>
+  </footer>
+</body>
+</html>
